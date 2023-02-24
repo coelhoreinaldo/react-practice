@@ -1,19 +1,12 @@
 import React from "react";
-import Batata from "./components/batata.jpeg"
+import Body from "./components/Body.js";
+import Header from "./components/Header.js";
 
 export default function App(){
-  const legume = () => 'batata';
-  const itIs = () => 'melhor legume';
   return(
     <>
-    <header>
-      <h1>{`A ${legume()}`}</h1>
-      <h2>{`É o ${itIs()}`}</h2>
-      </header>
-    <section>
-      <img src={Batata} alt="batata" width="160px"/>
-      <img src="./img/batatas.jpeg" alt="batatas" width="160px"/>
-    </section>
+    <Header/>
+    <Body/>
     </>
   )
 }
