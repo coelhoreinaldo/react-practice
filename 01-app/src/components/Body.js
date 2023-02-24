@@ -2,7 +2,7 @@ import React from "react";
 import Data from "./Data";
 
 export default function Body(){
-  const type = 'Assada';
+  const type = () => 'Assada';
   const gh = 'https://github.com/coelhoreinaldo';
   const linkedin = 'https://www.linkedin.com/in/coelhoreinaldo/';
   return (
