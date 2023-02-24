@@ -12,6 +12,7 @@ export default function App(){
       </header>
     <section>
       <img src={Batata} alt="batata" width="160px"/>
+      <img src="./img/batatas.jpeg" alt="batatas" width="160px"/>
     </section>
     </>
   )
